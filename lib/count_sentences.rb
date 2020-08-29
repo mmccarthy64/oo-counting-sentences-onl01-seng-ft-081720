@@ -2,7 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?
+  def sentence?(string)
+    return false unless string.include?(".")
     
   end
 
