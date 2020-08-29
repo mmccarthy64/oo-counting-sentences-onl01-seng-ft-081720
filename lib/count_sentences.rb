@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(string)
-    return false unless string.include?(".")
+    return false unless string.end_with?(".")
   end
 
   def question?
